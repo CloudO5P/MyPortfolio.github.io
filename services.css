@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #252525;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+.container{
+    place-items: center;
+}
+.container h1{
+    font-size: 50px;
+    color: #fff;
+}
+.main button{
+    position: relative;
+    top: -690px;
+    left: 20px;
+    width: 50px;
+    background: transparent;
+    border: none;
+}
+.main button a{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
